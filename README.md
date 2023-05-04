@@ -3,7 +3,7 @@ Lesson from the book [Mastering Go - Second Edition]( https://learning.oreilly.c
 
 ## Create the code
 ```bash
-<<'eof' > aSourceFile.go
+<<'eof' cat > aSourceFile.go
 package main 
   
 import ( 
