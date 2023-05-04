@@ -4,16 +4,20 @@ Lesson from the book [Mastering Go - Second Edition]( https://learning.oreilly.c
 ## Create the code
 ```bash
 <<'eof' cat > aSourceFile.go
-package main 
-  
-import ( 
-    "fmt" 
-) 
- 
-func main() { 
-    fmt.Println("This is a sample Go program!") 
-} 
+package main
+
+import (
+    "fmt"
+)
+
+func main() {
+    fmt.Println("This is a sample Go program!")
+}
 eof
+```
+## Run without compiling
+```bash
+go run aSourceFile.go
 ```
 
 ## Compile the code
